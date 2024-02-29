@@ -1,0 +1,137 @@
+body h1 h2 h3 p ul li{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #ddb892;
+    color: #7f5539;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #7f5539;
+}
+
+nav :hover{
+    color: red;
+}
+.hero{
+    /*background-image: url(./images/makeup\ \(2\).jpg);*/
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: #b08968;
+}
+.hero p{
+    font-size: 3em;
+    color: #ddb892;
+}
+.btn{
+    display: inline-block;
+    background-color: #7f5539;
+    color: #fff;
+    padding: 30px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: red;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #7f5539;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.services{
+   /* background-image: url(/images/makeup\ \(2\).jpg);*/
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.service-card{
+    background-color: rgba(129, 94, 54, 0.637);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px 20px;
+    max-width: 300px;
+}
+.service-card h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #b08968;
+}
+.service-card p{
+    font-size: 1em;
+    color: #ddb892;
+}
+.service-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.all{
+    background-image: url(/images/makeup\ \(2\).jpg);
+    background-size: cover;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.about-me-content{
+    max-width: 50%;
+    padding-right: 80px;
+    color: #ddb892;
+}
+.about-me-content p{
+    font-size: 20px;
+}
+.about-me-content h2{
+    color: #7f5539;
+    font-size: 4em;
+}
+.about-me-image img{
+    max-width: 500px;
+    border-radius: 50%;
+    background-color: rgba(209, 162, 99, 0.384);
+}
